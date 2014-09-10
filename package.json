@@ -8,7 +8,7 @@
   },
   "window": {
     "frame": true,
-    "toolbar": false
+    "toolbar": true
   },
   "dependencies": {
     "express": "~4.2.0",
@@ -18,5 +18,9 @@
     "body-parser": "~1.0.0",
     "debug": "~0.7.4",
     "jade": "~1.3.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-node-webkit-builder": "^0.2.3"
   }
 }
